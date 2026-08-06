@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משפחת בנדיקט בדרום פולין וסלובקיה</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Assistant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --turquoise: #17a2b8;
+            --grass-green: #4CAF50;
+            --brown: #8b5a2b;
+            --bg-color: #f0f5f7;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --light-text: #666666;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Assistant', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: var(--card-bg);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Header Style */
+        .header {
+            background: transparent;
+            margin: 15px 15px 5px 15px;
+            padding: 10px;
+            position: relative;
+        }
+
+        .logo {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 3px solid var(--turquoise);
+            object-fit: cover;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: var(--turquoise);
+            line-height: 1.1;
+        }
+
+        .header h2 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--brown);
+        }
+        
+        .welcome-back {
+            padding: 40px 20px;
+        }
+        
+        .welcome-back h3 {
+            font-size: 26px;
+            color: var(--grass-green);
+            margin-bottom: 10px;
+        }
+        
+        .welcome-back p {
+            font-size: 18px;
+            color: var(--light-text);
+            font-weight: 600;
+        }
+
+        .feedback-section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            border: 1px dashed var(--border-color);
+        }
+        
+        .feedback-section label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: var(--brown);
+            text-align: right;
+        }
+
+        .feedback-input {
+            width: 100%;
+            min-height: 100px;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-family: 'Assistant', sans-serif;
+            font-size: 14px;
+            resize: vertical;
+            margin-bottom: 15px;
+        }
+        
+        .feedback-input:focus {
+            outline: none;
+            border-color: var(--turquoise);
+            box-shadow: 0 0 0 2px rgba(23, 162, 184, 0.2);
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background-color: #25D366; /* Official WhatsApp color */
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-family: 'Assistant', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.2s;
+            width: 100%;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #128C7E;
+        }
+        
+        .whatsapp-btn:active {
+            transform: scale(0.98);
+        }
+
+        /* Footer */
+        .footer {
+            margin: 20px 15px 10px 15px;
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 11px;
+            color: #777777;
+            line-height: 1.6;
+        }
+        
+        .footer-highlight {
+            font-size: 13px;
+            color: var(--turquoise);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <img src="1.jpg" alt="Logo" class="logo">
+        <h1>משפחת בנדיקט בדרום פולין וסלובקיה</h1>
+        <h2>27/7-6/8/2026</h2>
+    </div>
+
+    <!-- Welcome Back Message -->
+    <div class="welcome-back">
+        <h3>איזה כיף שנהניתם! 🎉</h3>
+        <p>נתראה בטיול הבא,<br>הדס</p>
+    </div>
+    
+    <!-- Feedback Section -->
+    <div class="feedback-section">
+        <label for="feedbackText"><i class="fa-solid fa-comment-dots" style="margin-left: 5px;"></i> איך היה לכם?</label>
+        <textarea id="feedbackText" class="feedback-input" placeholder="אשמח לשמוע חוויות, הערות או סתם מילים טובות על הטיול..."></textarea>
+        
+        <button onclick="sendToWhatsApp()" class="whatsapp-btn">
+            <i class="fa-brands fa-whatsapp" style="font-size: 20px;"></i> שלחו לי הודעה
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <span class="footer-highlight">כל הזכויות שמורות להדס טרכטר - יועצת טיולים בארץ ובעולם 050-5685356.</span><br>
+        אין להעביר ללא אישור מפורש. העובר על כך עובר על גזל לפי דין תורה וחוקי המקום.
+    </div>
+</div>
+
+<script>
+    function sendToWhatsApp() {
+        const feedback = document.getElementById('feedbackText').value;
+        const phoneNumber = "972505685356"; // Your number
+        
+        if (feedback.trim() === "") {
+            alert("נא לכתוב כמה מילים לפני השליחה :)");
+            return;
+        }
+        
+        // Encode the message to be URL-safe
+        const encodedMessage = encodeURIComponent("היי הדס, חזרנו מהטיול ורצינו לשתף:\n" + feedback);
+        
+        // Create the WhatsApp link and open it
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        window.open(whatsappUrl, '_blank');
+    }
+</script>
+
+</body>
+</html>
